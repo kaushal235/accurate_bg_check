@@ -10,7 +10,7 @@ payload = {
     "lastName": "Einstein",
     "middleName": 'Z',
     "dateOfBirth": "1972-05-26",
-    "ssn": "531-90-1234",
+    "ssn": "000-00-0000",
     "email": "noemail_{0}@somenoemailsomenoemail.com".format(random.randint(1000,9999999999)),
     "phone": "000-000-0000",
     'address': 'address 1',
