@@ -1,4 +1,4 @@
-from mixin.crud import BaseCrud
+from accurate_bg_check.mixin.crud import BaseCrud
 
 
 class Candidate(BaseCrud):

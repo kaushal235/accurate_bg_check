@@ -6,7 +6,7 @@ except ImportError:
     from urllib.parse import urlencode
 
 import requests
-from exception import ValidationException
+from accurate_bg_check.exception import ValidationException
 from requests.auth import HTTPBasicAuth
 
 

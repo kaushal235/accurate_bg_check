@@ -1,7 +1,9 @@
 import sys
+
 import random
-from candidate import Candidate
-from .client import client
+
+from accurate_bg_check.candidate import Candidate
+from .client_example import client
 
 payload = {
     "firstName": "Test name Albert {0}".format(random.randint(1,999)),

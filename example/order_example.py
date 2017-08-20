@@ -1,6 +1,7 @@
 import sys
-from order import Order
-from .client import client
+
+from accurate_bg_check.order import Order
+from .client_example import client
 
 payload = {
     'candidateId': '',  # use id which is return by candidate resource
