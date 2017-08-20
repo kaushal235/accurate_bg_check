@@ -13,7 +13,7 @@ Create the `BgCheck` client object before you make any calls to Accurate Backgro
 ```python
 from accurate_bg_check.candidate import Candidate
 candidate = Candidate(client=client)
-print candidate.list()
+print(candidate.list())
 ```
 
 ### Create Candidate
@@ -35,5 +35,5 @@ payload = {
     'postalCode': 91501
 }
 response = candidate.create(payload)  # pass json object
-print response
+print(response)
 ```
